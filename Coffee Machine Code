@@ -1,0 +1,170 @@
+# This Is A Starbucks Coffee Ordering Machine!
+
+def main():
+
+
+    import time
+    print("Hello! Welcome To Starbucks!")
+
+    name = input("What Is Your Name?: ")
+
+    if name == "Sumitra":
+        print("\nSorry You Are Not Welcome Here As You Have No Brain ;_;")
+        if name == "Sumitra":
+            time.sleep(3)
+            exit()
+
+    elif name == "Ridhiman":
+        print("\nYo!!! Sonu!! Wassup!!!")
+
+    elif name == "Basab":
+        print(
+            "\nSorry You Are Not Welcome Here As You Are An Engineer And Only Use 'Jugadu' ideas to solve problems which later lead to even more chaos ;_;")
+        if name == "Basab":
+            time.sleep(7)
+            exit()
+
+    elif name == "Partho":
+        print("\nSorry You Are Not Welcome Here Because You Flirt With My Mother ;_;")
+        if name == "Partho":
+            time.sleep(3)
+            exit()
+
+    elif name == "Bithika":
+        print("\nSorry You Are Not Welcome Here Because You Have a Dumb Hunsband Who Flirts With My Mother ;_;")
+        if name == "Bithika":
+            time.sleep(5)
+            exit()
+
+    elif name == "Rishav":
+        print("\nSorry You Are Not Welcome Here Because U Are A Gadha ;_;")
+        if name == "Rishav":
+            time.sleep(3)
+            exit()
+
+    elif name == "Shilpa":
+        print("\nYo!!! Shilpa!, Whatsup!!! , U Are A Cool Person :)))")
+
+    elif name == "Gandhar":
+        print("\nHey Boss , Whatsup , I Hope U Are Doing Well")
+
+    elif name == "Bubun":
+        print("\nMorning Cournel!!!")
+
+    elif name == "Malhar":
+        print("\nYo Bald Man :)")
+
+    elif name == "Saksham":
+        print("\nYo pal Wassup!")
+
+    else:
+        print("\nGreetings", name, "!!!!!!")
+
+    print("\nMenu\n""1.Hot Coffee\n2.Cold Coffee\n3.Cappuccino")
+
+    # Order Input
+    order = input("What Would U Like To Order?: ")
+
+    # HotCoffee Price Variable
+
+    hotcoffee_small_price = "$3.36"  # TAX = 0.36
+    hotcoffee_medium_price = "$5.6"  # TAX = 0.6
+    hotcoffee_large_price = "$7.84"  # TAX = 0.84
+
+    # ColdCoffee Price Variable
+    coldcoffee_small_price = "$4.144"  # TAX = 0.444
+    coldcoffee_medium_price = "$6.608"  # TAX = 0.708
+    coldcoffee_large_price = "$8.96"  # TAX = 0.96
+
+    # Cappuccino Price Variables
+
+    cappuccino_small_price = "$5.6"  # TAX = 0.6
+    cappuccino_medium_price = "$9.52"  # TAX = 1.02
+    cappuccino_large_price = "$13.44"  # TAX = 1.44
+
+    # Hot Coffee Order
+
+    if order == ("1"):
+        order = "Hot Coffee"
+        if order == "Hot Coffee":
+            size1 = input("\nSize\n1.Small - $3\n2.Medium - $5\n3.Large - $7\nWhat Would Be Your Preferable Size?: ")
+
+            if size1 == "1":
+                size1 = "Small"
+                print("\nAwesome! Your", size1, "Size", order,
+                      "Will Be Ready In A Few Minutes!!\nYour Total Bill Is \nCoffee - $3\nGST - $0.36 =\n",
+                      hotcoffee_small_price)
+                time.sleep(5)
+
+            if size1 == "2":
+                size1 = "Medium"
+                print("\nAwesome! Your", size1, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $5\nGST - $0.6 =\n",
+                      hotcoffee_medium_price)
+                time.sleep(5)
+
+            if size1 == "3":
+                size1 = "Large"
+                print("\nAwesome! Your", size1, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $7\nGST - $0.84 =\n",
+                      hotcoffee_large_price)
+                time.sleep(5)
+
+    # ColdCoffee Order
+
+    elif order == ("2"):
+        order = "Cold Coffee"
+        if order == "Cold Coffee":
+            size2 = input(
+                "\nSize\n1.Small - $3.7\n2.Medium - $5.9\n3.Large - $8\nWhat Would Be Your Preferable Size?: ")
+
+            if size2 == "1":
+                size2 = "Small"
+                print("\nAwesome! Your", size2, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $3.7\nGST - $0.444 =\n",
+                      coldcoffee_small_price)
+                time.sleep(5)
+
+            if size2 == "2":
+                size2 = "Medium"
+                print("\nAwesome! Your", size2, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $5.9\nGST - $0.708\n",
+                      coldcoffee_medium_price)
+                time.sleep(5)
+
+            if size2 == "3":
+                size2 = "Large"
+                print("\nAwesome! Your", size2, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $8\nGST - $0.96 =\n",
+                      coldcoffee_large_price)
+                time.sleep(5)
+
+    # Cappuccino Order
+
+    elif order == ("3"):
+        order = "Cappuccino"
+        if order == "Cappuccino":
+            size3 = input("\nSize\n1.Small - $5\n2.Medium - $8.5\n3.Large - $12\nWhat Would Be Your Preferable Size?: ")
+
+            if size3 == "1":
+                size3 = "Small"
+                print("\nAwesome! Your", size3, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $5\nGST - $0.6 =\n",
+                      cappuccino_small_price)
+                time.sleep(5)
+
+            if size3 == "2":
+                size3 = "Medium"
+                print("\nAwesome! Your", size3, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $8.5\nGST - $1.02 =\n",
+                      cappuccino_medium_price)
+                time.sleep(5)
+
+            if size3 == "3":
+                size3 = "Large"
+                print("\nAwesome! Your", size3, "Size", order,
+                      "Will Be Ready In A Few Minutes!! \nYour Total Bill Is \nCoffee - $12\nGST - $1.44 =\n",
+                      cappuccino_large_price)
+                time.sleep(5)
+
+main()
