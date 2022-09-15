@@ -25,13 +25,13 @@ def main():
             exit()
 
     elif name == "Partho":
-        print("\nSorry You Are Not Welcome Here Because You Flirt With My Mother ;_;")
+        print("\nSorry You Are Not Welcome Here ;_;")
         if name == "Partho":
             time.sleep(3)
             exit()
 
     elif name == "Bithika":
-        print("\nSorry You Are Not Welcome Here Because You Have a Dumb Hunsband Who Flirts With My Mother ;_;")
+        print("\nSorry You Are Not Welcome Here ;_;")
         if name == "Bithika":
             time.sleep(5)
             exit()
